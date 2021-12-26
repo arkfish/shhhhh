@@ -32,7 +32,7 @@ local function check()
 			magntext.BackgroundTransparency = 1
 			magntext.TextStrokeTransparency = 0
 
-			-- flee the facility
+			--== flee the facility ====================================================--]
 			pcall(function()
 				if v.TempPlayerStatsModule.IsBeast.Value then
 					frame.BackgroundColor3 = Color3.new(1, 0, 0)-- red   (rgb)
@@ -40,6 +40,7 @@ local function check()
 					frame.BackgroundColor3 = Color3.new(0, 1, 0)-- green (rgb)
 				end
 			end)
+			--=========================================================================--]
 
 			local lplr = game.Players.LocalPlayer
 			local lchr = lplr.Character
