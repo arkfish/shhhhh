@@ -32,6 +32,7 @@ local function check()
 			magntext.BackgroundTransparency = 1
 			magntext.TextStrokeTransparency = 0
 
+			-- flee the facility
 			pcall(function()
 				if v.TempPlayerStatsModule.IsBeast.Value then
 					frame.BackgroundColor3 = Color3.new(1, 0, 0)-- red   (rgb)
